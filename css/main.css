@@ -1,0 +1,54 @@
+body {
+  background: black;
+  color: white;
+}
+
+table {
+  border: solid 1px white; 
+}
+
+
+td, th {
+  text-align: center;
+  border-bottom: solid 1px white;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+tr:hover {
+  background: #1b1b1b;
+}
+
+thead {
+  background: #04045f;
+}
+
+button {
+  width: 100%;
+  cursor: pointer;
+}
+
+.thead-secondary {
+  background: #141448; 
+}
+
+.green {
+  color: #3de83d;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: #ffc657;
+}
+
+.background-grey {
+ background: #1b1b1b;
+}
+
+.cursor {
+  cursor: pointer;
+}

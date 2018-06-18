@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='css/main.css' rel='stylesheet' />
+  </head>
+  <title>Space of Chaos</title>
+  <body>
+    <h1>Space of Chaos</h1>
+    <div id='profile'>
+      <table width='24%' style='float:left; position:fixed;'>
+        <thead>
+          <th colspan='2' class='thead-secondary'>Command Centre</th>
+        </thead>
+        <thead>
+          <th colspan=''>Statistic</th>
+          <th colspan=''>Value</th>
+        </thead>
+        <tr>
+          <td colspan=''>Name</td>
+          <td colspan='' id='user-name'></td>
+        </tr>
+        <tr>
+          <td>Money</td>
+          <td id='user-money'></td>
+        </tr>
+        <tr>
+          <td>XP</td>
+          <td id='user-xp'></td>
+        </tr>
+        <tr>
+          <td>Rank</td>
+          <td id='user-rank'></td>
+        </tr>
+        <tr>
+          <td>Attack Strength</td>
+          <td id='user-attack'></td>
+        </tr>
+        <tr>
+          <td>Defence Strength</td>
+          <td id='user-defence'></td>
+        </tr>
+        <tr>
+          <td>Spy Rating</td>
+          <td id='user-spy'></td>
+        </tr>
+        <tr>
+          <td>
+            <button id='attack-purchase-btn'>Buy Attack</button>
+          </td>
+          <td>
+            <button id='defence-purchase-btn'>Buy Defence</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button id='spy-purchase-btn'>Buy Spies</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id='gamescreen'>
+      <table width='75%' style='float:right'>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Money</th>
+            <th>Attack Strength</th>
+            <th>Defence Strength</th>
+            <th>Spy Rating</th>
+          </tr>
+        </thead>
+        <tbody id='ai'>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script src='js/app.js'></script>
+</html>
